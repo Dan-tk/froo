@@ -1,0 +1,11 @@
+services:
+  - type: static
+    name: gr-8-app
+    buildCommand: npm run build
+    staticSites:
+      - outputDir: build
+    repo:
+      branch: main
+      github:
+        owner: benjimwiti
+        repo: https://github.com/benjimwiti/FINALE-frontend-beta
